@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios Tor - Plataforma Segura</title>
+  <style>
+      :root {
+          --primary-color: #1a73e8;
+          --secondary-color: #34a853;
+          --dark-background: #121212;
+          --light-text: #f4f4f4;
+      }
+
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      body {
+          font-family: 'Arial', sans-serif;
+          line-height: 1.6;
+          background-color: var(--dark-background);
+          color: var(--light-text);
+      }
+
+      .container {
+          width: 90%;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 2rem 0;
+      }
+
+      header {
+          background-color: rgba(26, 115, 232, 0.1);
+          padding: 2rem 0;
+          text-align: center;
+      }
+
+      header h1 {
+          color: var(--primary-color);
+          font-size: 2.5rem;
+          margin-bottom: 1rem;
+      }
+
+      .services-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 1.5rem;
+          margin-top: 2rem;
+      }
+
+      .service-card {
+          background-color: rgba(255, 255, 255, 0.05);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 10px;
+          padding: 1.5rem;
+          transition: transform 0.3s ease;
+      }
+
+      .service-card:hover {
+          transform: scale(1.05);
+          border-color: var(--primary-color);
+      }
+
+      .service-card h3 {
+          color: var(--primary-color);
+          margin-bottom: 1rem;
+      }
+
+      .service-card .onion-link {
+          color: var(--secondary-color);
+          word-break: break-all;
+          margin-bottom: 1rem;
+          display: block;
+      }
+
+      .security-section {
+          background-color: rgba(52, 168, 83, 0.1);
+          padding: 2rem;
+          margin-top: 2rem;
+          border-radius: 10px;
+      }
+
+      .legal-notice {
+          background-color: rgba(255, 0, 0, 0.1);
+          color: #ff6b6b;
+          padding: 1rem;
+          text-align: center;
+          margin-top: 2rem;
+          border-radius: 10px;
+      }
+
+      @media (max-width: 768px) {
+          .services-grid {
+              grid-template-columns: 1fr;
+          }
+      }
+  </style>
+</head>
+<body>
+  <header>
+      <div class="container">
+          <h1>🌐 Servicios Tor</h1>
+          <p>Catálogo oficial de servicios seguros accesibles a través de la red Tor</p>
+      </div>
+  </header>
+
+  <main class="container">
+      <section class="services-grid">
+          <div class="service-card">
+              <h3>🗄️ Almacenamiento en la Nube</h3>
+              <a href="#" class="onion-link">http://jjzgblz6uccwxv72w7kkby3qp4s3ua3lxnclt7zfuukxbebaoeq4mpyd.onion</a>
+              <p>Plataforma de almacenamiento seguro con cifrado de extremo a extremo</p>
+          </div>
+
+          <div class="service-card">
+              <h3>🔍 Motor de Búsqueda Privado</h3>
+              <a href="#" class="onion-link">http://onion5qv5g3kp2n644yrrt46d3uxgbqb5de5yixjexwd4wbwwzalbdqd.onion/</a>
+              <p>Búsquedas 100% anónimas sin registro de historial</p>
+          </div>
+
+          <div class="service-card">
+              <h3>💰 Wallet de Red Kron</h3>
+              <a href="#" class="onion-link">http://knaczfkhnb4podt3326trn3g7uzgwruhagmhhhrkillctnuewtekxiqd.onion/</a>
+              <p>Transacciones anónimas con soporte para múltiples criptomonedas</p>
+          </div>
+
+          <div class="service-card">
+              <h3>💬 Mensajería Instantánea</h3>
+              <a href="#" class="onion-link">http://zt7hmzrk3u72nbqi4wzz6vs5kvrujhgtupksyhenlsseuusvnjpvjqqd.onion/</a>
+              <p>Comunicación cifrada de extremo a extremo</p>
+          </div>
+
+          <div class="service-card">
+              <h3>📁 Compartición de Archivos</h3>
+              <a href="#" class="onion-link">http://share35svnxehabrmt23qcb4azdi5ntbukvqb5psvu4ldywkgzhrgiyd.onion</a>
+              <p>Almacenamiento y descarga de archivos anónimos y seguros</p>
+          </div>
+      </section>
+
+      <section class="security-section">
+          <h2>🌐 Cómo Acceder</h2>
+          <ol>
+              <li>Descargar Navegador Tor</li>
+              <li>Instalar y abrir el Tor Browser</li>
+              <li>Copiar la dirección Onion del servicio deseado</li>
+              <li>Pegar la dirección en la barra de navegación</li>
+          </ol>
+      </section>
+
+      <div class="legal-notice">
+          <h3>⚠️ Aviso Legal</h3>
+          <p>Servicios exclusivos para usuarios autorizados. Prohibido cualquier uso indebido.</p>
+      </div>
+  </main>
+</body>
+</html>
